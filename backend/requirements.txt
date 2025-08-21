@@ -1,0 +1,16 @@
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+python-dotenv>=1.0.0
+pydantic>=2.4.2
+
+# AutoGen/AI dependencies
+ag2[openai]>=0.8.0
+openai==1.66.2
+
+# Additional dependencies for your specific implementation
+asyncio
+datetime
+typing
+uuid
+
